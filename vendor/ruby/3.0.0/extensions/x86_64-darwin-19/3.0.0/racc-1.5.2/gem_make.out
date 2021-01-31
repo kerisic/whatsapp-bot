@@ -1,0 +1,16 @@
+current directory: /Users/christinekharweechee/Projects/whatsapp-bot/vendor/ruby/3.0.0/gems/racc-1.5.2/ext/racc/cparse
+/Users/christinekharweechee/.rvm/rubies/ruby-3.0.0/bin/ruby -I /Users/christinekharweechee/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20210131-3307-3996e1.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/christinekharweechee/Projects/whatsapp-bot/vendor/ruby/3.0.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /Users/christinekharweechee/Projects/whatsapp-bot/vendor/ruby/3.0.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/christinekharweechee/Projects/whatsapp-bot/vendor/ruby/3.0.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20210131-3307-92vzc0/racc

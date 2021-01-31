@@ -1,0 +1,5 @@
+current directory: /Users/christinekharweechee/Projects/whatsapp-bot/vendor/ruby/3.0.0/gems/http-parser-1.2.3/ext
+/Users/christinekharweechee/.rvm/rubies/ruby-3.0.0/bin/ruby -I/Users/christinekharweechee/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -rrubygems /Users/christinekharweechee/Projects/whatsapp-bot/vendor/ruby/3.0.0/gems/rake-13.0.3/exe/rake RUBYARCHDIR\=/Users/christinekharweechee/Projects/whatsapp-bot/vendor/ruby/3.0.0/extensions/x86_64-darwin-19/3.0.0/http-parser-1.2.3 RUBYLIBDIR\=/Users/christinekharweechee/Projects/whatsapp-bot/vendor/ruby/3.0.0/extensions/x86_64-darwin-19/3.0.0/http-parser-1.2.3
+gcc -fdeclspec -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing -Wall -Wextra -O3   -o x86_64-darwin/http-parser/http_parser.o -c ./http-parser/http_parser.c
+mkdir -p x86_64-darwin/http-parser
+gcc -fdeclspec -bundle -o x86_64-darwin/libhttp-parser-ext.bundle x86_64-darwin/http-parser/http_parser.o -fexceptions 
